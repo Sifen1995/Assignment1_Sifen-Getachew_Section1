@@ -1,0 +1,129 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    background-color:  #d9eed9;
+    padding: 30px;
+    margin: 0px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly ;
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+li a{
+   color: #4CAF50;
+   text-decoration: none; 
+   text-decoration: wavy;
+   text-align: center;
+   
+}
+li a:hover{
+    background-color: lightgrey;
+    border-radius: 13px;
+    padding: 7px;
+}
+h2{
+   margin-left: 5%;
+   margin-top: 25px;
+   margin-bottom: 25px;
+
+}
+
+.price{
+    text-align: center;
+    color: #41ab5d;
+    font-size: 23px;
+}
+.product-list{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.product  p{
+    text-align: center;
+}
+.product h2{
+    text-align: center;
+}
+.product{
+    width: 30%;
+    height: auto;
+    margin-right: 100px;
+    border:  2px solid white;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px; 
+}
+.middles{
+    width: 230px;
+    height: 250px;
+    border-radius: 5px;
+}
+.i1{
+    width: 230px;
+    height: 350px;
+    border-radius:5px;
+}
+footer{
+    background-color: #124314;
+    margin-top: 60px;
+    padding: 25px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+@media (max-width:412px) {
+    h1{
+        width: 160%;      
+    }
+    nav ul{
+        width: 100%;
+    }
+    .product{
+        margin: 20px;
+    }
+    .product-list{
+        display: block;
+        width: 250%;
+        margin-left: 40%;
+    }
+    .i1{
+        width: 296px;
+        height: 350px;
+        border-radius:5px;
+    }
+    .middles{
+        width: 296px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    footer{
+        width: 160%;
+        background-color: darkgreen;
+        margin-top: 60px;
+        padding: 25px;
+    }
+    footer p{
+        text-align: center;
+        color: white;
+    }    
+   
+} 
+@media (min-width: 768px) and (max-width: 1024px){   
+   .product{
+    margin-right: 50px;
+   }  
+   .product-list{
+    margin-left: 5%;
+    margin-right: 5%;
+   } 
+}    
